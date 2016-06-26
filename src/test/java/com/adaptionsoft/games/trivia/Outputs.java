@@ -1,4 +1,4 @@
-package com.adaptionsoft.games.uglytrivia;
+package com.adaptionsoft.games.trivia;
 
 public class Outputs {
 
@@ -983,5 +983,5 @@ public class Outputs {
             "Science Question 4" + eol +
             "Answer was correct!!!!" + eol +
             "Sue now has 6 Gold Coins." + eol;
-
 }
+

@@ -1,7 +1,7 @@
-package com.adaptionsoft.games.uglytrivia;
+package com.adaptionsoft.games.trivia.game;
 
 import com.adaptionsoft.games.trivia.Player;
-import com.adaptionsoft.games.trivia.game.Game;
+import com.adaptionsoft.games.trivia.Outputs;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -61,11 +61,11 @@ public class GameTest {
     }
 
     @Test
-    public void testGame(){
+    public void testGame() {
         assertEquals(expectedOutput, runGame(inputRandom));
     }
 
-    private String runGame(Random rand){
+    private String runGame(Random rand) {
         boolean aWinner;
 
         aGame.add(new Player("Chet"));
